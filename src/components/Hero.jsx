@@ -10,7 +10,7 @@ export default function Hero() {
         {/* Left side: Text */}
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
-            Welcome to <span className="text-blue-600">MyStore</span>
+            Welcome to <span className="text-blue-600">PeakMart</span>
           </h1>
           <p className="text-lg text-gray-600 mb-8">
             Discover the best products at unbeatable prices. 

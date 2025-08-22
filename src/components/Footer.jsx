@@ -9,7 +9,7 @@ export default function Footer() {
         
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold text-white">MyStore</h2>
+          <h2 className="text-2xl font-bold text-white">PeakMart</h2>
           <p className="mt-2 text-gray-400">
             Bringing you quality products with the best service.
           </p>
@@ -40,7 +40,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="flex items-end">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} MyStore. All rights reserved.
+            © {new Date().getFullYear()} PeakMart. All rights reserved.
           </p>
         </div>
       </div>
