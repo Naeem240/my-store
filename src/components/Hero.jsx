@@ -27,9 +27,9 @@ export default function Hero() {
         {/* Right side: Image */}
         <div className="flex justify-center">
           <img
-            src="https://via.placeholder.com/400x300.png?text=Welcome+Image"
+            src="https://i.ibb.co.com/67VC34ZR/Marketing-amico.png"
             alt="Welcome illustration"
-            className="rounded-xl shadow-lg"
+            className=""
           />
         </div>
       </div>

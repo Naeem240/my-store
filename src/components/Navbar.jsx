@@ -5,6 +5,7 @@ import { useState } from "react";
 import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { data: session } = useSession();
@@ -14,7 +15,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center gap-1">
+            <img className="w-7" src='https://i.ibb.co.com/VpgtYT10/logo.png' alt="aa" />
             <Link href="/" className="text-2xl font-bold text-blue-600">
               PeakMart
             </Link>
@@ -47,13 +49,13 @@ export default function Navbar() {
                 </span>
                 <button
                   onClick={() => signOut()}
-                  className="text-red-600 hover:underline"
+                  className="text-red-600 hover:underline cursor-pointer"
                 >
                   Logout
                 </button>
               </>
             ) : (
-              <Link href="/login" className="hover:text-blue-600">
+              <Link href="/login" className="text-blue-600">
                 Login
               </Link>
             )}
