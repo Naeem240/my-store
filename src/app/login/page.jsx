@@ -43,7 +43,7 @@ export default function LoginPage() {
           name="email"
           value={form.email}
           onChange={handleChange}
-          placeholder="Email"
+          placeholder="test@example.com"
           className="w-full border px-3 py-2 rounded"
           required
         />
@@ -52,7 +52,7 @@ export default function LoginPage() {
           name="password"
           value={form.password}
           onChange={handleChange}
-          placeholder="Password"
+          placeholder="123456"
           className="w-full border px-3 py-2 rounded"
           required
         />

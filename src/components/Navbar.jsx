@@ -109,7 +109,7 @@ export default function Navbar() {
               </span>
               <button
                 onClick={() => signOut()}
-                className="text-red-600 hover:underline"
+                className="text-red-600 hover:underline ml-2"
               >
                 Logout
               </button>
